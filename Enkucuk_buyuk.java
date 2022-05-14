@@ -17,19 +17,18 @@ public class Enkucuk_buyuk {
 		System.out.println(i+".deger:"+deger);
 		
 		if(i==1) {
-			enk=deger; 
-			enb=deger;
-			}
+		enk=deger; 
+		enb=deger;
+		}
 		
 		if(deger>enb) {
 		enb=deger;
-	
-	}
+		}
 		 if (deger<enk) {
-			enk=deger;
+		enk=deger;
 		}  
 		
-		}
+}
 	System.out.println("en kucuk eleman:"+enk);
 	System.out.println("en buyuk eleman:"+enb);
     }
